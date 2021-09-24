@@ -1,0 +1,33 @@
+setTimeout(function(){
+    document.getElementById("para").innerText="10"
+    setTimeout(function(){
+        document.getElementById("para").innerText="9"
+        setTimeout(function(){
+            document.getElementById("para").innerText="8"
+            setTimeout(function(){
+                document.getElementById("para").innerText="7"
+                setTimeout(function(){
+                    document.getElementById("para").innerText="6"
+                    setTimeout(function(){
+                        document.getElementById("para").innerText="5"
+                        setTimeout(function(){
+                            document.getElementById("para").innerText="4"
+                            setTimeout(function(){
+                                document.getElementById("para").innerText="3"
+                                setTimeout(function(){
+                                    document.getElementById("para").innerText="2"
+                                    setTimeout(function(){
+                                        document.getElementById("para").innerText="1"
+                                        setTimeout(function(){
+                                            document.getElementById("para").innerText="HAPPY BIRTHDAY"
+                                        },1000);
+                                    },1000);
+                                },1000);
+                            },1000);
+                        },1000);
+                    },1000);
+                },1000);
+            },1000);
+        },1000);
+    },1000);
+},1000);
